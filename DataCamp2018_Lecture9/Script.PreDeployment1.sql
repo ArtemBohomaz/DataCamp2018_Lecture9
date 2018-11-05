@@ -11,4 +11,4 @@
 */
 
 
-insert into dbo.DbVersion values (default)
+insert into dbo.DbVersion (VersionNumber,DeployDate) values ($(VersionNo),default)
