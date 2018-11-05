@@ -11,4 +11,4 @@
 */
 
 
-:r .\Pre_Deployment_Script.sql
+insert into dbo.DbVersion (VersionNumber,DeployDate) values ($(VersionNo),default)
