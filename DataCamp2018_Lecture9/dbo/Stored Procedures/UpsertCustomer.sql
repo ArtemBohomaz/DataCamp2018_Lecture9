@@ -5,7 +5,7 @@ begin try
 set nocount, xact_abort on
 
 if isnull(@CustomerName,'') = ''
-	throw 50000, 'Invalid parameter +dfgrgrhhthsttt', 1
+	throw 50000, 'Invalid parameter test conflict develop 2', 1
 
 
 insert into dbo.Customers (CustomerName)
